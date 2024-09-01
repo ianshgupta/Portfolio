@@ -13,7 +13,8 @@ class SkillMobile extends StatelessWidget {
             margin: EdgeInsets.only(bottom: 5),
             width: double.maxFinite,
             decoration: BoxDecoration(
-              color: CustomColor.bgLight2,
+              color: CustomColor.scaffoldBg,
+              border: Border.all(color: Colors.white.withOpacity(0.3), width: 1),
               borderRadius: BorderRadius.circular(5),
             ),
             child: ListTile(
@@ -34,7 +35,7 @@ class SkillMobile extends StatelessWidget {
           children: [
             for(int i=0;i<skillItems.length;i++)
               Chip(
-                backgroundColor: CustomColor.bgLight2,
+                backgroundColor: CustomColor.scaffoldBg,
                 padding: EdgeInsets.symmetric(vertical: 12,horizontal: 16),
                 label: Text(skillItems[i]["title"]),
                 avatar: Image.asset(skillItems[i]["img"]),
