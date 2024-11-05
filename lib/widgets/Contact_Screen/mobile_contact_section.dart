@@ -71,7 +71,7 @@ class MobContactSection extends StatelessWidget {
                     backgroundColor: CustomColor.bgLight1,
                     child: IconButton(
                         onPressed: () {
-                          _launchURL('https://github.com/Ansh-Gupta-Official');
+                          _launchURL('https://github.com/ianshgupta');
                         },
                         icon: Icon(EvaIcons.github)),
                   ),
@@ -81,7 +81,7 @@ class MobContactSection extends StatelessWidget {
                     child: IconButton(
                         onPressed: () {
                           _launchURL(
-                              'https://www.linkedin.com/in/ansh-gupta-931425220');
+                              'https://www.linkedin.com/in/ianshgupta');
                         },
                         icon: Icon(EvaIcons.linkedin)),
                   ),
@@ -108,7 +108,7 @@ class MobContactSection extends StatelessWidget {
                       backgroundColor: CustomColor.bgLight1,
                       child: InkWell(
                         onTap: () {
-                          _launchURL('https://leetcode.com/Ansh-Gupta/');
+                          _launchURL('https://leetcode.com/ianshgupta/');
                         },
                         child: Padding(
                           padding: const EdgeInsets.all(8.0),
