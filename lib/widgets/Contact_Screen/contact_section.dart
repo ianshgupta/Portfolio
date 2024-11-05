@@ -133,7 +133,7 @@ class ContactSection extends StatelessWidget {
                     backgroundColor: CustomColor.bgLight1,
                     child: IconButton(
                         onPressed: () {
-                          _launchURL('https://www.instagram.com/anshh.gupta/');
+                          _launchURL('https://ansh-gupta.netlify.app/');
                         },
                         icon: Icon(Icons.person)),
                   ),
