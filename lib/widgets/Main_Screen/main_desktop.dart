@@ -109,7 +109,7 @@ class MainDesktop extends StatelessWidget {
                     children: [
                       InkWell(
                         onTap: () {
-                          _launchURL('https://leetcode.com/Ansh-Gupta/');
+                          _launchURL('https://leetcode.com/ianshgupta/');
                         },
                         child: Image.asset(
                           'assets/leetcode.png',
@@ -121,7 +121,7 @@ class MainDesktop extends StatelessWidget {
                       SizedBox(width: 10),
                       IconButton(
                         onPressed: () {
-                          _launchURL('https://github.com/Ansh-Gupta-Official');
+                          _launchURL('https://github.com/ianshgupta');
                         },
                         icon: Icon(EvaIcons.github, color: Colors.white),
                       ),
@@ -209,7 +209,7 @@ class MainDesktop extends StatelessWidget {
 
                     onPressed: () {
                       _launchURL(
-                          'https://www.linkedin.com/in/ansh-gupta-931425220');
+                          'https://www.linkedin.com/in/ianshgupta');
                     },
                     icon: Icon(EvaIcons.linkedin, color: Colors.white),
                     label: Text('Connect', style: TextStyle(color: Colors.white)),
